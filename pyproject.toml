@@ -10,10 +10,6 @@ dependencies = [
 
 [project.scripts]
 apitest_crew = "apitest_crew.main:run"
-run_crew = "apitest_crew.main:run"
-train = "apitest_crew.main:train"
-replay = "apitest_crew.main:replay"
-test = "apitest_crew.main:test"
 
 [build-system]
 requires = ["hatchling"]
